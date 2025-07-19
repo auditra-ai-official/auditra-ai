@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auditra AI | AI Regulatory Risk Elimination</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts for modern professional mono/tech feel -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: #f8f6ed;
+      color: #372b19;
+      font-family: 'JetBrains Mono', 'Consolas', monospace;
+      font-size: 17px;
+      letter-spacing: 0.01em;
+      min-height: 100vh;
+    }
+    .main-container {
+      max-width: 670px;
+      margin: 48px auto 0 auto;
+      background: #f7eedb;
+      border-radius: 16px;
+      border: 1.5px solid #decc95;
+      box-shadow: 0 6px 44px #bfa14114, 0 0 0 3px #ede2c0;
+      padding: 38px 38px 26px 38px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-bottom: 18px;
+    }
+    .logo svg {
+      height: 44px;
+      width: 210px;
+    }
+    @media (max-width: 800px) {
+      .main-container { max-width: 97vw; padding: 18px 3vw 18px 3vw; }
+      .logo svg { width: 150px; height: 34px; }
+    }
+    .headline {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 2.1em;
+      color: #bfa141;
+      letter-spacing: 0.13em;
+      margin: 0 0 10px 0;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-size: 1.13em;
+      color: #866d26;
+      margin-bottom: 18px;
+    }
+    .section {
+      margin-top: 32px;
+      margin-bottom: 6px;
+      color: #a38836;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.18em;
+      letter-spacing: 0.03em;
+      font-weight: 700;
+    }
+    .technical-block {
+      background: #fff7e0;
+      border-left: 4px solid #bfa141;
+      border-radius: 6px;
+      margin: 10px 0 20px 0;
+      padding: 16px 19px;
+      font-size: 0.99em;
+      color: #514014;
+      box-shadow: 0 2px 8px #bfa14112;
+      line-height: 1.56;
+    }
+    .impact-bullet {
+      margin-left: 13px;
+      padding-left: 4px;
+      font-size: 0.98em;
+      color: #473b13;
+      line-height: 1.54;
+    }
+    .testimonial {
+      border-left: 4px solid #bfa141;
+      background: #f6ebc8;
+      color: #705c28;
+      font-size: 1.01em;
+      padding: 10px 18px 10px 18px;
+      margin: 7px 0 13px 0;
+      border-radius: 5px;
+      font-style: italic;
+      font-family: 'JetBrains Mono', monospace;
+      box-shadow: 0 1px 6px #c0a24b11;
+    }
+    .testimonial strong {
+      color: #bc942a;
+    }
+    .market-growth {
+      background: #fff5dc;
+      border-left: 4px solid #d7b042;
+      color: #75613b;
+      border-radius: 6px;
+      padding: 13px 19px;
+      margin: 7px 0 19px 0;
+      font-size: 1.01em;
+      box-shadow: 0 1px 7px #bfa14118;
+    }
+    .contact-info {
+      font-size: 1.07em;
+      margin: 18px 0 0 0;
+      color: #6e633e;
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.01em;
+      padding-left: 6px;
+    }
+    .contact-info span {
+      font-weight: 600;
+      color: #a38233;
+    }
+    .contact-info a {
+      color: #a38233;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      color: #c7b883;
+      margin-top: 28px;
+      font-size: 13px;
+      font-family: 'JetBrains Mono', monospace;
+      text-align: right;
+      letter-spacing: 0.02em;
+      border-top: 1px solid #decc95;
+      padding-top: 8px;
+      opacity: 0.72;
+    }
+    .cursor-blink {
+      display: inline-block;
+      width: 12px;
+      color: #bfa141;
+      background: transparent;
+      animation: blink 1.13s steps(1) infinite;
+      font-size: 19px;
+      vertical-align: bottom;
+    }
+    @keyframes blink {
+      0%, 47% { opacity: 1; }
+      48%, 99% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    ::selection { background: #f9eccb; }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- LOGO (SVG) -->
+    <div class="logo" style="opacity: 0.45; transition: opacity 0.2s; width:110px;">
+     <svg width="110" height="24" viewBox="0 0 210 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="19" font-family="'JetBrains Mono', 'Share Tech Mono', monospace"
+            font-size="17" fill="#bfa141" font-weight="bold" letter-spacing="1.5">Auditra</text>
+      <text x="76" y="19" font-family="'JetBrains Mono', 'Share Tech Mono', monospace"
+            font-size="17" fill="#c76d46" font-weight="bold" letter-spacing="1.5">AI</text>
+     </svg>
+    </div>
+
+
+    <!-- HEADLINE (H1) -->
+    <div class="headline">Auditra AI</div>
+    <div class="subtitle">
+      AI-Powered Compliance Risk Elimination<br>
+      <span style="color:#a38836;">// Regulatory Lawsuit Prevention Platform (EU/AI Act Ready)</span>
+    </div>
+
+    <!-- OUR MISSION -->
+    <div class="section">OUR MISSION</div>
+    <div class="technical-block">
+      Auditra AI safeguards companies from catastrophic regulatory fines and lawsuits under the EU AI Act, GDPR, and next-gen US/EU compliance standards. Our platform is engineered by security and legal AI experts to proactively detect, explain, and patch legal vulnerabilities—before launch and before a lawyer ever calls.
+    </div>
+
+    <!-- TECHNICAL EDGE -->
+    <div class="section">TECHNICAL EDGE</div>
+    <div class="technical-block">
+      <strong>Automated, Multi-Layered Analysis:</strong>
+      <ul class="impact-bullet">
+        <li>Scans source code, dataflows, ML models, prompts, and deployment configs for compliance triggers.</li>
+        <li>Applies NLP and symbolic reasoning to detect GDPR/AI Act risk patterns (e.g. shadow profiling, prompt logging, algorithmic bias, non-consensual retention).</li>
+        <li>Simulates regulatory audits using a custom, AI-powered legal risk engine—flagging hidden exposures that manual review misses.</li>
+        <li>Suggests actionable patch steps or deploys auto-mitigation for high-severity findings.</li>
+        <li>Produces ready-to-use, timestamped audit trails and compliance reports for regulators and investors.</li>
+      </ul>
+      <strong>Model Highlights:</strong>
+      <ul class="impact-bullet">
+        <li>Zero-trust sandbox for safe, automated patch validation—no risk to prod data.</li>
+        <li>Custom LLM and hybrid neuro-symbolic pipeline for explainable decisions.</li>
+        <li>Continuously updated threat/risk signatures from global compliance events and new laws.</li>
+      </ul>
+    </div>
+
+    <!-- TESTIMONIALS & INDUSTRY IMPACT -->
+    <div class="section">TESTIMONIALS & INDUSTRY IMPACT</div>
+    <div class="testimonial">
+      <strong>Fortune 500 Data Platform, EU:</strong><br>
+      “Auditra AI flagged a silent privacy leak in our chatbot logs just days before the EU’s new regulations came into effect. Their auto-generated patch and audit trail let us avoid a potential €12M lawsuit and saved our public reputation.”
+    </div>
+    <div class="testimonial">
+      <strong>CTO, ChatTech Labs:</strong><br>
+      “Our product team missed an obscure prompt-capture bug that violated the AI Act. Auditra AI found, explained, and resolved it before anyone else, letting us release ahead of schedule—fully compliant.”
+    </div>
+
+    <!-- MARKET OPPORTUNITY & GROWTH -->
+    <div class="section">MARKET OPPORTUNITY & GROWTH</div>
+    <div class="market-growth">
+      <ul>
+        <li>Regulatory fines (EU/US/Asia) for AI & Data are projected to top <b>$25B+</b> by 2027.</li>
+        <li>Auditra AI’s pipeline moves compliance from “cost center” to “competitive advantage.”</li>
+        <li>Clients in FinTech, HealthTech, SaaS, and Big Data already protected from next-gen legal risk.</li>
+        <li>Deep technical moat: dynamic AI compliance engine, explainable ML, regulatory event feeds.</li>
+      </ul>
+      <b>Seeking strategic investors and partners to expand global reach and regulatory coverage.</b>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section">CONTACT</div>
+    <div class="contact-info">
+      <span>Partnerships:</span> <a href="mailto:allies@auditra.ai">allies@auditra.ai</a><br>
+      <span>Investors:</span> <a href="mailto:invest@auditra.ai">invest@auditra.ai</a>
+    </div>
+
+    <div class="footer">
+      Auditra AI Legal Engine &copy; 2025 &mdash; All Rights Reserved
+      <span class="cursor-blink">&#9608;</span>
+    </div>
+  </div>
+</body>
+</html>
