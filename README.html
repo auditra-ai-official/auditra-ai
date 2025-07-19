@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>README | Auditra AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Consistent font/theme with your site -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #f8f6ed;
+      color: #372b19;
+      font-family: 'JetBrains Mono', 'Montserrat', Arial, monospace;
+      margin: 0; padding: 0;
+    }
+    .container {
+      max-width: 670px;
+      margin: 48px auto 0 auto;
+      background: #f7eedb;
+      border-radius: 16px;
+      border: 1.5px solid #decc95;
+      box-shadow: 0 6px 44px #bfa14114, 0 0 0 3px #ede2c0;
+      padding: 38px 38px 26px 38px;
+    }
+    .logo {
+      width: 135px;
+      margin-bottom: 18px;
+      display: block;
+    }
+    h1 {
+      color: #bfa141;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 2em;
+      letter-spacing: 0.13em;
+      margin: 0 0 16px 0;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-size: 1.18em;
+      color: #866d26;
+      margin-bottom: 18px;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    .section {
+      margin-top: 32px;
+      margin-bottom: 6px;
+      color: #a38836;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.14em;
+      letter-spacing: 0.03em;
+      font-weight: 700;
+    }
+    .textblock {
+      margin: 0 0 24px 0;
+      font-size: 1.03em;
+      line-height: 1.67;
+      color: #514014;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .techblock {
+      background: #fff7e0;
+      border-left: 4px solid #bfa141;
+      border-radius: 6px;
+      margin: 14px 0 24px 0;
+      padding: 16px 22px;
+      font-size: 1.01em;
+      color: #37300e;
+      box-shadow: 0 2px 8px #bfa14113;
+      line-height: 1.63;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .plansblock {
+      background: #f6ebc8;
+      border-left: 4px solid #c7a534;
+      color: #705c28;
+      border-radius: 6px;
+      padding: 13px 22px;
+      margin: 7px 0 19px 0;
+      font-size: 1.01em;
+      box-shadow: 0 1px 7px #bfa14113;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .contact-info {
+      font-size: 1.07em;
+      margin: 18px 0 0 0;
+      color: #6e633e;
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.01em;
+      padding-left: 6px;
+    }
+    .contact-info span {
+      font-weight: 600;
+      color: #a38233;
+    }
+    .contact-info a {
+      color: #a38233;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      color: #c7b883;
+      margin-top: 28px;
+      font-size: 13px;
+      font-family: 'JetBrains Mono', monospace;
+      text-align: right;
+      letter-spacing: 0.02em;
+      border-top: 1px solid #decc95;
+      padding-top: 8px;
+      opacity: 0.72;
+    }
+    @media (max-width: 800px) {
+      .container { 
+        max-width: 100vw; 
+        padding: 9vw 2vw 9vw 2vw; 
+        border-radius: 8px;
+        margin: 12px 0 0 0;
+      }
+      .logo { width: 100px; }
+      h1 {
+        font-size: 1.25em;
+        letter-spacing: 0.06em;
+      }
+      body {
+        font-size: 14px;
+      }
+      .section {
+        font-size: 1em;
+        margin-top: 22px;
+        margin-bottom: 4px;
+      }
+      .techblock, .plansblock {
+        font-size: 0.98em;
+        padding: 9px 5vw;
+        margin: 8px 0 13px 0;
+      }
+    }
+    @media (max-width: 500px) {
+      .container { 
+        padding: 3vw 1vw 6vw 1vw; 
+        border-radius: 6px;
+        margin: 6px 0 0 0;
+      }
+      .logo { width: 75px; }
+      h1 { font-size: 1em; }
+      body { font-size: 12.5px; }
+      .section { font-size: 0.94em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <h1>Auditra AI</h1>
+    <div class="subtitle">
+      README &mdash;Your AI friend will prevent unwanted lawsuits
+    </div>
+
+    <div class="section">Who Are We?</div>
+    <div class="textblock">
+      We are a group of security engineers, ML researchers, and infrastructure architects who’ve spent a decade building, breaking, and securing mission-critical cloud and financial systems.<br><br>
+      Auditra AI isn’t just a compliance scanner. We built it because we were tired of seeing “compliant” cloud and AI deployments get burned by subtle privacy, retention, or dataflow bugs—issues that only show up under real regulatory scrutiny. We know from experience that audit reports, static analysis, and even most "AI compliance" tools miss the risks that matter.
+    </div>
+
+    <div class="section">What Makes Our Tech Different?</div>
+    <div class="techblock">
+      <b>Deep Application Graph Analysis</b><br>
+      - Auditra doesn’t just grep for keywords or run linters. We build a real dataflow graph from your entire deployment—cloud configs, containers, API gateways, storage, ML pipelines, you name it.<br>
+      - Then we cross-correlate with threat feeds, regulatory updates, and historical incident data.<br>
+      <br>
+      <b>Dynamic, Context-Aware Simulation</b><br>
+      - Our core: a hybrid engine using both LLMs (for language/code/policy) and symbolic/graph AI (for structure and traceability).<br>
+      - We don’t just “find” a problem—we show how it’s triggered, who can exploit it, and which business logic paths are actually risky.
+      <br><br>
+      <b>Patch Intelligence (Not Just Suggestions)</b><br>
+      - For every finding, we generate precise, deployable remediation steps—sometimes actual code or cloud policy, not just “checklist” advice.<br>
+      - And we validate patches in a disposable sandbox before you ever touch prod.
+    </div>
+
+    <div class="section">Why Cloud Platforms and Banks Use Auditra AI</div>
+    <div class="textblock">
+      <b>Cloud Providers:</b><br>
+      - Rapidly audit new workloads or customer apps for regulatory blind spots, <i>without</i> slowing down releases.<br>
+      - Build “provable” compliance into internal platforms—showing auditors exact dataflow, access controls, and patch history on demand.<br>
+      - Integrate with IaC tools (Terraform, Pulumi, CloudFormation) for continuous compliance.<br><br>
+      <b>Banks / Fintech:</b><br>
+      - Map customer data and ML pipelines for compliance and privacy, <i>across all hybrid/multi-cloud stacks</i>.<br>
+      - Generate regulator-ready audit logs and “living compliance” documentation—updated with every code or infra change.<br>
+      - Detect and patch issues <b>before</b> they’re exploited, not after you’re fined.
+    </div>
+
+    <div class="section">Real-World Impact</div>
+    <div class="plansblock">
+      :: Our program has already provided a vulnerability found within the OPENAI platform, which will help them prevent lawsuits from the EU ACT.<br>
+      We’re not theorists—we run real audits and provide tangible value. If you’re a cloud-scale operator or bank looking to stay ahead of compliance and threat actors, we want to work with you.
+    </div>
+
+    <div class="section">Plans and Roadmap</div>
+    <div class="plansblock">
+      <b>Short term:</b> Launching integrations with major CI/CD platforms (GitHub Actions, GitLab, Jenkins), adding support for more regulatory frameworks (US AI Bill, APAC laws).<br><br>
+      <b>Mid-term:</b> Release our patch validation engine as a SaaS API—so devs can “compliance-check” every push.<br><br>
+      <b>Long term:</b> Automated continuous compliance for complex, multi-cloud architectures. Universal regulatory graph AI, “explainable compliance” reports for customers, partners, and regulators worldwide.
+    </div>
+
+    <div class="section">Contact</div>
+    <div class="contact-info">
+      <span>Partnerships:</span> <a href="mailto:auditra.ai@gmail.com">auditra.ai@gmail.com</a><br>
+      <span>Investors:</span> <a href="mailto:auditra.ai@gmail.com">auditra.ai@gmail.com</a>
+    </div>
+
+    <div class="footer">
+      Auditra AI Legal Engine &copy; 2025 — All Rights Reserved
+    </div>
+  </div>
+</body>
+</html>
