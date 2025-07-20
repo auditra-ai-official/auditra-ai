@@ -4,8 +4,22 @@
 
 ---
 
-**🌟 For a full product overview and deep technical insight, [README click here](https://auditra-ai-official.github.io/auditra-ai/README.html)**  
-**🔗 Or visit the [Live Demo Website](https://auditra-ai-official.github.io/auditra-ai/index.html)**
+---
+
+## 🚀 Join the Audit AI Beta Testing on Telegram!
+
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Beta%20Now-2CA5E0?logo=telegram&logoColor=white)](https://t.me/Auditra_bot)
+
+**Interact with our compliance engine right in Telegram:**
+- Upload datasets and files for compliance scanning
+- Test prompts or code for GDPR/EU AI Act risks
+- Get fast feedback — anywhere, anytime
+
+👤 _Open to all beta testers — no installation required!_  
+👉 [Click here to join Audit AI Beta on Telegram](https://t.me/Auditra_bot)
+
+---
+
 
 ---
 
